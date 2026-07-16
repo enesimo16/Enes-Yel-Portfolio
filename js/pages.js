@@ -14,7 +14,6 @@ const pages = {
                     <span class="txt-type" data-wait="2000" data-words='["Bilişim Sistemleri Mühendisliği Öğrencisi", "Web Geliştiricisi", "Yardımsever"]'></span>
                 </h2>
                 <br>
-                <small class="student-id">B23120053</small>
                 <p class="subtitle">Web Teknolojileri | Backend Development | Mechanical | Hardware</p>
                 <br>
                 <a href="#projelerim" class="btn">Projelerimi İncele</a>
@@ -136,7 +135,7 @@ const pages = {
 
                     <!-- CV -->
                     <div class="cv-section reveal">
-                    <a href="portfolio-spa/assets/img/docs/enes-yel-cv.pdf" class="btn-download" download>
+                    <a href="assets/docs/enes-yel-cv.pdf" class="btn-download" download>
                         <span>📄</span> CV'mi İndir (.pdf)
                     </a>
 
@@ -175,7 +174,6 @@ const pages = {
                     <span class="txt-type" data-wait="2000" data-words='["ISE Student", "Web Developer", "Philanthropist"]'></span>
                 </h2>
                 <br>
-                <small class="student-id">B23120053</small>
                 <p class="subtitle">Web Technologies | Backend Development | Mechanical | Hardware</p>
                 <br>
                 <a href="#projelerim" class="btn">View Projects</a>

@@ -13,8 +13,7 @@
     <meta property="og:title" content="Enes Yel | Dijital Portfolyo">
     <meta property="og:description" content="Modern web teknolojileri ile geliştirilmiş interaktif portfolyo sitesi.">
     <meta property="og:image" content="assets/img/icon.png"> 
-    <meta name="project" content="JavaScript ile SPA (Single Page Application) Portfolyo Sitesi">
-    <meta name="teacher" content="Dr.Öğr.Üyesi Baran Kaynak">
+    <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#667eea">
 
 
@@ -88,29 +87,7 @@
 
 
 
-    <!--
-        BONUSLAMALAR
 
-        PWA (Uygulama)
-        Scroll Reveal
-        Dil Desteği (TR/EN)
-        Dark theme / Light theme
-        Typewriter Efekti
-        Hava Durumu API
-        CV & QR Kod
-        Scroll Progress
-        Back to Top
-        3D Tilt Efekti
-        Yazdırma Tasarımı ( ctrl + p )
-        Konami Code ( klavyeden enes yazınca)
-        Skeleton Loading & Custom Cursor
-        Canvas Arka Plan (Network Ağı)
-        color switcher
-        toast bildirimleri
-        ses efektleri
-
-        best of bests - terminal 
-    -->
 
 
 
@@ -149,9 +126,8 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Enes Yel - B231200053 - Bilişim Sistemleri Mühendisliği</p>
-        <small>Bu site JavaScript ile oluşturulmuş bir SPA (Single Page Application) portfolyo sitesidir. 2025-2026 3.yarıyıl Web Teknolojileri Proje Ödevidir.</small><br> 
-        <small>Öğretim Görevlisi: Dr.Öğr.Üyesi Baran Kaynak</small>
+        <p>&copy; 2025 Enes Yel &mdash; Bilişim Sistemleri Mühendisliği</p>
+        <small>Vanilla JS ile inşa edilmiş kişisel SPA portfolyo sitesi.</small>
         <div class="socials">
             <a href="https://github.com/enesimo16" target="_blank" rel="noopener noreferrer" aria-label="Github Profilim">GitHub</a>
             <div id="weather-widget" class="weather-widget">
@@ -163,6 +139,17 @@
             <a href="https://www.linkedin.com/in/enes-yel-44a1ab297/" target="_blank"  rel="noopener noreferrer" aria-label="LinkedIn Profilim">LinkedIn</a>
         </div>
     </footer>
+
+    <!-- Project Modal (missing from original — fixes attachModalEvents) -->
+    <div id="project-modal" class="project-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="project-modal-content">
+            <button class="close-btn" aria-label="Kapat">&#x2715;</button>
+            <img id="modal-img" src="" alt="Proje Görseli" style="width:100%; border-radius:12px; margin-bottom:1rem; max-height:260px; object-fit:cover;">
+            <h3 id="modal-title" style="margin-bottom:0.75rem;"></h3>
+            <p id="modal-desc" style="opacity:0.85; line-height:1.7; margin-bottom:1.5rem;"></p>
+            <a id="modal-repo" href="#" target="_blank" rel="noopener noreferrer" class="btn" style="display:inline-flex; align-items:center; gap:0.5rem;">🔗 GitHub Repo</a>
+        </div>
+    </div>
 
     <div id="curtain-overlay">
         <div class="curtain-panel left-panel"></div>

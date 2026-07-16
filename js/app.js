@@ -169,9 +169,8 @@ function initCustomCursor() {
         const posX = e.clientX;
         const posY = e.clientY;
 
-        if(cursor) cursor.style.left = `${posX}px`; cursor.style.top = `${posY}px`;
-        
-        if(follower) follower.style.left = `${posX}px`; follower.style.top = `${posY}px`;
+        if(cursor) { cursor.style.left = `${posX}px`; cursor.style.top = `${posY}px`; }
+        if(follower) { follower.style.left = `${posX}px`; follower.style.top = `${posY}px`; }
     });
 
     document.addEventListener('mouseover', (e) => {

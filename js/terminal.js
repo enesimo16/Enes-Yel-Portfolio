@@ -92,7 +92,8 @@ function initTerminal() {
 
             case 'social':
                 response = `
-                    <div>GitHub: <a href="https://github.com/enesyel" target="_blank" style="color:#fff">github.com/enesyel</a></div>
+                    <div>GitHub: <a href="https://github.com/enesimo16" target="_blank" style="color:#fff">github.com/enesimo16</a></div>
+                    <div>LinkedIn: <a href="https://www.linkedin.com/in/enes-yel-44a1ab297/" target="_blank" style="color:#fff">linkedin.com/in/enes-yel</a></div>
                 `;
                 break;
             
@@ -135,7 +136,7 @@ function initTerminal() {
                 return;
 
             case 'sudo':
-                response = "<span class='cmd-error'>Yetkisiz erişim! Sen hoca değilsin :)</span>";
+                response = "<span class='cmd-error'>Yetkisiz erişim! Bu terminalde sudo yoktur.</span>";
                 break;
 
             default:
