@@ -23,22 +23,33 @@ const pages = {
         hakkimda: `
             <section class="about-section reveal">
                 <h2>Hakkımda</h2>
-                <p>Herkese merhaba, ben Enes Yel, Sakarya Üniversitesinde Bilişim Sistemleri Mühendisliği 2.sınıf öğrencisiyim. ÇAP kapsamında Makine mühendisliği, yandal tarafında ise bilgisayar donanımı okumaktayım.</p>
-                
+                <p>Herkese merhaba, ben Enes Yel, Sakarya Üniversitesinde Bilişim Sistemleri Mühendisliği 3.sınıf öğrencisiyim. ÇAP kapsamında Makine mühendisliği, yandal tarafında ise bilgisayar donanımı okumaktayım.</p>
+
                 <br>
-                <h3>Eğitim & Gelişim Süreci</h3>
+                <h3>Eğitim & Deneyim</h3>
                 <div class="timeline">
-                    <!-- 2025: Web & Backend -->
+
+                    <!-- 2026: MRC Otomotiv Staj -->
                     <div class="timeline-item">
                         <span class="timeline-dot"></span>
                         <div class="timeline-content">
-                            <span class="timeline-date">2025 - Günümüz</span>
-                            <h4>Web & Backend</h4>
-                            <p>Web teknolojileri üzerine yoğunlaştım. JavaScript, HTML, CSS, Bootstrap ve React ile frontend; modern mimarilerle backend tarafında kendimi geliştiriyorum.</p>
+                            <span class="timeline-date">2026 - Devam Ediyor</span>
+                            <h4>MRC Otomotiv — Yazılım Geliştirme Stajyeri</h4>
+                            <p>MRC Otomotiv bünyesinde yazılım geliştirme stajyeri olarak görev yapmaktayım. .NET tabanlı iç süreç yönetim uygulamalarının geliştirilmesi ve bakımına katkı sağlıyor; RESTful API entegrasyonları, EF Core ile veritabanı tasarımı ve Docker konteyner tabanlı dağıtım süreçlerinde aktif rol alıyorum. Mevcut sistemlerin modernizasyonu ve performans iyileştirmesi konularında deneyim kazanıyorum.</p>
                         </div>
                     </div>
 
-                    <!-- 2025: Akademik (Makine & Donanım) -->
+                    <!-- 2025–2026: Full Stack & AI Projeleri -->
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 — 2026</span>
+                            <h4>Tam Yığın & Yapay Zeka Projeleri</h4>
+                            <p>Next.js 16, TypeScript ve .NET 8 ile tam yığın uygulamalar geliştirdim. Docker, SignalR, Microsoft Semantic Kernel ve çoklu LLM sağlayıcıları (Groq, Gemini, Ollama) entegre eden AI destekli platformlar inşa ettim. AWS ve bulut mimarisi üzerine çalışmalar yürütüyorum.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2025: Akademik -->
                     <div class="timeline-item">
                         <span class="timeline-dot"></span>
                         <div class="timeline-content">
@@ -72,10 +83,10 @@ const pages = {
                 <br>
                 <h2>Teknik Yetkinlikler</h2>
                 <div class="skills-wrapper" style="max-width: 800px; margin: 0 auto;">
-    
+
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>C# & .NET Core</span>
+                            <span>C# & .NET 8</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -85,17 +96,17 @@ const pages = {
 
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>Web Frontend (HTML/CSS/JS)</span>
-                            <span>85%</span>
+                            <span>TypeScript & Next.js</span>
+                            <span>82%</span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress" style="width: 85%"></div>
+                            <div class="progress" style="width: 82%"></div>
                         </div>
                     </div>
-                    
+
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>Python</span>
+                            <span>Web Frontend (HTML / CSS / JS)</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -105,11 +116,51 @@ const pages = {
 
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>SQL & Veritabanı Yönetimi</span>
+                            <span>Python</span>
                             <span>80%</span>
                         </div>
                         <div class="progress-bar">
                             <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>Docker & Konteynerizasyon</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>SQL & Veritabanı Tasarımı</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>AI / LLM Entegrasyonu</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>AWS & Bulut Hizmetleri</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
                         </div>
                     </div>
 
@@ -135,17 +186,14 @@ const pages = {
 
                     <!-- CV -->
                     <div class="cv-section reveal">
-                    <a href="assets/docs/enes-yel-cv.pdf" class="btn-download" download>
-                        <span>📄</span> CV'mi İndir (.pdf)
-                    </a>
-
-                    <!-- QR Kod (Mobil Erişim İçin) -->
-                    <div class="qr-box">
-                        <!-- Buraya kendi QR kod resmini koyacağız -->
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/enesyel" alt="Mobil QR">
-                        <div class="qr-text">Mobilden İncele</div>
+                        <a href="assets/docs/enes-yel-cv.pdf" class="btn-download" download>
+                            <span>📄</span> CV'mi İndir (.pdf)
+                        </a>
+                        <div class="qr-box">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/enesyel" alt="Mobil QR">
+                            <div class="qr-text">Mobilden İncele</div>
+                        </div>
                     </div>
-                </div>
 
                 </div>
             </section>
@@ -183,18 +231,29 @@ const pages = {
         hakkimda: `
             <section class="about-section reveal">
                 <h2>About Me</h2>
-                <p>Hello everyone, my name is Enes Yel, and I am a second-year student studying Computer Systems Engineering at Sakarya University. I am also studying Mechanical Engineering as part of the double major program and Computer Hardware as a minor.</p>
-                
+                <p>Hello everyone, my name is Enes Yel, and I am a third-year student studying Information Systems Engineering at Sakarya University. I am also pursuing Mechanical Engineering as a double major and Computer Hardware as a minor.</p>
+
                 <br>
                 <h3>Education & Experience</h3>
                 <div class="timeline">
-                    <!-- 2025: Web & Backend -->
+
+                    <!-- 2026: MRC Automotive Internship -->
                     <div class="timeline-item">
                         <span class="timeline-dot"></span>
                         <div class="timeline-content">
-                            <span class="timeline-date">2025 - Present</span>
-                            <h4>Web & Backend</h4>
-                            <p>Focused on web technologies. Improving frontend skills with JS, HTML, CSS, Bootstrap, React, and backend with modern architectures.</p>
+                            <span class="timeline-date">2026 - Present</span>
+                            <h4>MRC Automotive — Software Development Intern</h4>
+                            <p>Working as a software development intern at MRC Automotive. Developing and maintaining .NET-based internal process management applications, contributing to RESTful API integrations, EF Core database design, and Docker-based containerized deployments. Gaining hands-on experience in system modernization and performance optimization.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2025–2026: Full Stack & AI -->
+                    <div class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 — 2026</span>
+                            <h4>Full Stack & AI Projects</h4>
+                            <p>Built full-stack applications with Next.js 16, TypeScript, and .NET 8. Developed AI-powered platforms integrating Docker, SignalR, Microsoft Semantic Kernel, and multi-provider LLMs (Groq, Gemini, Ollama). Exploring AWS and cloud architecture.</p>
                         </div>
                     </div>
 
@@ -232,10 +291,10 @@ const pages = {
                 <br>
                 <h2>Technical Skills</h2>
                 <div class="skills-wrapper" style="max-width: 800px; margin: 0 auto;">
-                    
+
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>C# & .NET Core</span>
+                            <span>C# & .NET 8</span>
                             <span>90%</span>
                         </div>
                         <div class="progress-bar">
@@ -245,7 +304,17 @@ const pages = {
 
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>Web Frontend (HTML/CSS/JS)</span>
+                            <span>TypeScript & Next.js</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 82%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>Web Frontend (HTML / CSS / JS)</span>
                             <span>85%</span>
                         </div>
                         <div class="progress-bar">
@@ -256,16 +325,6 @@ const pages = {
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
                             <span>Python</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill-bar-container reveal">
-                        <div class="skill-info">
-                            <span>SQL & Database Management</span>
                             <span>80%</span>
                         </div>
                         <div class="progress-bar">
@@ -275,7 +334,7 @@ const pages = {
 
                     <div class="skill-bar-container reveal">
                         <div class="skill-info">
-                            <span>React & Modern JS</span>
+                            <span>Docker & Containerization</span>
                             <span>75%</span>
                         </div>
                         <div class="progress-bar">
@@ -283,7 +342,47 @@ const pages = {
                         </div>
                     </div>
 
-                     <div class="skill-bar-container reveal">
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>SQL & Database Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>AI / LLM Integration</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>AWS & Cloud Services</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
+                        <div class="skill-info">
+                            <span>React & Modern JavaScript</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-bar-container reveal">
                         <div class="skill-info">
                             <span>C++ & Algorithms</span>
                             <span>70%</span>
@@ -293,17 +392,15 @@ const pages = {
                         </div>
                     </div>
 
-                    
                     <div class="cv-section reveal">
-                    <a href="assets/docs/enes-yel-cv.pdf" class="btn-download" download>
-                        <span>📄</span> Download CV (.pdf)
-                    </a>
-
-                    <div class="qr-box">
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/enesyel" alt="Mobile QR">
-                        <div class="qr-text">Scan for Mobile</div>
+                        <a href="assets/docs/enes-yel-cv.pdf" class="btn-download" download>
+                            <span>📄</span> Download CV (.pdf)
+                        </a>
+                        <div class="qr-box">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/enesyel" alt="Mobile QR">
+                            <div class="qr-text">Scan for Mobile</div>
+                        </div>
                     </div>
-                </div>
 
                 </div>
             </section>
