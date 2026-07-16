@@ -84,9 +84,18 @@ function initTerminal() {
 
             case 'projects':
                 response = `
-                    <div>Yükleniyor...</div>
-                    <div>1. Kule Savunma (C#)</div>
-                    <div>2. SPA Portfolyo (Web)</div>
+                    <div class="cmd-info">GitHub Projeleri:</div>
+                    <div>1. <span class="cmd-success">Currere</span>        — Next-gen Data Science Workspace (.NET + Python + Next.js)</div>
+                    <div>2. <span class="cmd-success">Telemetry</span>      — AI Kod Analiz Platformu (.NET 8 + Llama 3)</div>
+                    <div>3. <span class="cmd-success">Namines</span>        — AI Veritabanı Mimarı (TypeScript + AI)</div>
+                    <div>4. <span class="cmd-success">MRC Homepage</span>   — Kurumsal Web Sitesi (TypeScript + Next.js)</div>
+                    <div>5. <span class="cmd-success">ENVENT</span>         — Etkinlik Yönetim Platformu (C# .NET MVC)</div>
+                    <div>6. <span class="cmd-success">SPA Portfolyo</span>  — Bu site! (Vanilla JS)</div>
+                    <div>7. <span class="cmd-success">TÜBİTAK 1.</span>    — Konteyner Optimizasyon Algoritması (Python)</div>
+                    <div>8. <span class="cmd-success">WW2 Tower Defense</span> — Strateji Oyunu (C# Windows Forms)</div>
+                    <div>9. <span class="cmd-success">Linux Monitor</span>  — Sistem İzleme Aracı (Python)</div>
+                    <br>
+                    <div style="opacity:0.6;">Tümünü görmek için <a href="#projelerim" style="color:#38bdf8">Projelerim</a> sekmesine git.</div>
                 `;
                 break;
 

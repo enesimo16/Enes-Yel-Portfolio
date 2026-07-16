@@ -1,92 +1,146 @@
 [
   {
     "id": 1,
-    "title": "Konteyner Optimizasyon Algoritması (TÜBİTAK 1.)",
-    "title_en": "Container Optimization Algorithm (TÜBİTAK Winner)",
-    "description": "Python ile geliştirilen, kargo yerleşimini optimize ederek maliyeti düşüren ve TÜBİTAK yarışmasında birincilik ödülü alan yapay zeka destekli algoritma.",
-    "description_en": "AI-supported algorithm developed using Python that optimizes cargo placement to reduce costs, winning first prize in the TÜBİTAK competition.",
-    "image": "assets/tubitak.png",
-    "link": "#",
-    "category": "masaustu"
+    "title": "Currere — Veri Bilimi Workspace",
+    "title_en": "Currere — Data Science Workspace",
+    "description": "C# .NET backend, Python AI worker ve Next.js frontend'i bir araya getiren yeni nesil, sandbox'lı veri bilimi çalışma ortamı. Jupyter benzeri notebook deneyimi sunar.",
+    "description_en": "Next-generation sandboxed Data Science workspace integrating a C# .NET backend, Python AI workers, and a Next.js frontend. Delivers a Jupyter-like notebook experience.",
+    "image": "assets/img/proj_currere.png",
+    "link": "https://github.com/enesimo16/currere-workspace",
+    "category": "web",
+    "tags": ["C#", ".NET", "Python", "Next.js", "AI"]
   },
   {
     "id": 2,
-    "title": "ENVENT - Etkinlik Uygulaması",
-    "title_en": "ENVENT - Event Application",
-    "description": "C#, .NET Core MVC ve Razor Pages kullanılarak geliştirilen kapsamlı etkinlik yönetim platformu. Biletleme, katılımcı takibi ve organizasyon modülleri içerir.",
-    "description_en": "Comprehensive event management platform developed using C#, .NET Core MVC, and Razor Pages. Includes ticketing, attendee tracking, and organization modules.",
-    "image": "assets/envent.png",
-    "link": "https://github.com/SauWebProgramming/web-programming-project-2025-enesimo16",
-    "category": "web"
+    "title": "Telemetry — AI Kod Analiz Platformu",
+    "title_en": "Telemetry — AI Code Intelligence Platform",
+    "description": ".NET 8, Onion Architecture ve Llama 3 ile inşa edilmiş gelişmiş yapay zeka destekli kod analiz platformu. Güvenlik denetimi, yeniden yapılandırma önerileri ve otomatik birim test üretimi içerir.",
+    "description_en": "Advanced AI-powered code analysis platform built with .NET 8, Onion Architecture, and Llama 3. Features security auditing, refactoring suggestions, and automated unit test generation.",
+    "image": "assets/img/proj_telemetry.png",
+    "link": "https://github.com/enesimo16/telemetry-code-intelligence",
+    "category": "web",
+    "tags": ["C#", ".NET 8", "AI", "Llama 3", "Onion Architecture"]
   },
   {
     "id": 3,
+    "title": "Namines — AI Veritabanı Mimarı",
+    "title_en": "Namines — AI Database Architect",
+    "description": "Doğal dili şema, DDL, EF Core migration ve dokümantasyona dönüştüren yapay zeka destekli veritabanı tasarım aracı. 6 farklı veritabanı motorunu destekler.",
+    "description_en": "AI-powered database architect that turns plain language into schemas, DDL, EF Core migrations & docs across 6 database engines.",
+    "image": "assets/img/proj_namines.png",
+    "link": "https://github.com/enesimo16/Namines",
+    "category": "web",
+    "tags": ["TypeScript", "AI", "Next.js", "Database", "EF Core"]
+  },
+  {
+    "id": 4,
+    "title": "MRC Homepage",
+    "title_en": "MRC Homepage",
+    "description": "TypeScript ve modern web teknolojileri kullanılarak geliştirilen, Vercel'de yayınlanan profesyonel kurumsal anasayfa. Responsive ve performans odaklı tasarım.",
+    "description_en": "Professional corporate homepage developed with TypeScript and modern web technologies, deployed on Vercel. Responsive and performance-focused design.",
+    "image": "assets/img/proj_mrc.png",
+    "link": "https://github.com/enesimo16/mrc-homepage",
+    "homepage": "https://mrc-homepage.vercel.app",
+    "category": "web",
+    "tags": ["TypeScript", "Next.js", "Vercel"]
+  },
+  {
+    "id": 5,
+    "title": "ENVENT — Etkinlik Yönetim Platformu",
+    "title_en": "ENVENT — Event Management Platform",
+    "description": "C#, .NET Core MVC ve Razor Pages ile geliştirilen kapsamlı etkinlik yönetim platformu. Biletleme, katılımcı takibi ve organizasyon modülleri içerir.",
+    "description_en": "Comprehensive event management platform developed with C#, .NET Core MVC, and Razor Pages. Includes ticketing, attendee tracking, and organization modules.",
+    "image": "assets/envent.png",
+    "link": "https://github.com/SauWebProgramming/web-programming-project-2025-enesimo16",
+    "category": "web",
+    "tags": ["C#", ".NET Core", "MVC", "Razor Pages"]
+  },
+  {
+    "id": 6,
+    "title": "SPA Portfolyo Sitesi",
+    "title_en": "SPA Portfolio Website",
+    "description": "HTML5, CSS3 ve saf JavaScript (ES6+) ile sıfırdan inşa edilmiş Tek Sayfa Uygulaması. Fetch API, PWA, hash router, terminal CLI ve çok daha fazlası.",
+    "description_en": "Single Page Application built from scratch with HTML5, CSS3, and vanilla JavaScript (ES6+). Includes Fetch API, PWA, hash router, terminal CLI and much more.",
+    "image": "assets/img/spaportfolyo.png",
+    "link": "https://github.com/enesimo16/Vanilla-JS-SPA-Portfolio",
+    "category": "web",
+    "tags": ["JavaScript", "HTML5", "CSS3", "PWA", "SPA"]
+  },
+  {
+    "id": 7,
+    "title": "Konteyner Optimizasyon Algoritması (TÜBİTAK 1.)",
+    "title_en": "Container Optimization Algorithm (TÜBİTAK Winner)",
+    "description": "Python ile geliştirilen, kargo yerleşimini optimize ederek maliyeti düşüren ve TÜBİTAK yarışmasında birincilik ödülü alan yapay zeka destekli algoritma.",
+    "description_en": "AI-supported algorithm developed with Python that optimizes cargo placement to reduce costs — awarded 1st place at the TÜBİTAK competition.",
+    "image": "assets/tubitak.png",
+    "link": "#",
+    "category": "masaustu",
+    "tags": ["Python", "AI", "Algorithm", "TÜBİTAK"]
+  },
+  {
+    "id": 8,
+    "title": "WW2 Kule Savunma Oyunu",
+    "title_en": "WW2 Tower Defense Strategy Game",
+    "description": "C# ve Windows Forms ile geliştirilen taktiksel II. Dünya Savaşı kule savunma oyunu. İleri seviye Nesne Yönelimli Tasarım prensipleri ve GDI+ grafikleri kullanılmıştır.",
+    "description_en": "Tactical World War II tower defense game built with C# Windows Forms, demonstrating advanced OOP principles and GDI+ graphics.",
+    "image": "assets/ww2.png",
+    "link": "https://github.com/enesimo16/WW2-Tower-Defense-Strategy",
+    "category": "masaustu",
+    "tags": ["C#", "Windows Forms", "GDI+", "OOP", "Game"]
+  },
+  {
+    "id": 9,
     "title": "Linux Sistem İzleme Aracı",
     "title_en": "Linux System Monitor Tool",
     "description": "Linux sunuculardaki sistem kaynaklarını (CPU, RAM, Disk) ve log verilerini anlık olarak analiz edip görselleştiren izleme uygulaması.",
     "description_en": "Monitoring application that analyzes and visualizes system resources (CPU, RAM, Disk) and log data on Linux servers in real-time.",
     "image": "assets/linux.png",
     "link": "https://github.com/SauWebProgramming/linux-script-project-enesimo16",
-    "category": "masaustu"
+    "category": "masaustu",
+    "tags": ["Python", "Linux", "System", "Monitoring"]
   },
   {
-    "id": 4,
-    "title": "SPA Portfolyo Sitesi",
-    "title_en": "SPA Portfolio Website",
-    "description": "HTML5, CSS3 ve Modern JavaScript (ES6+) ile geliştirilen Tek Sayfa Uygulaması (SPA). Fetch API, PWA ve Routing yapısı içerir.",
-    "description_en": "Single Page Application (SPA) developed with HTML5, CSS3, and Modern JavaScript (ES6+). Includes Fetch API, PWA, and Routing structure.",
-    "image": "assets/img/spaportfolyo.png",
-    "link": "https://github.com/SauWebProgramming/web-tech-project-enesimo16",
-    "category": "web"
-  },
-  {
-    "id": 5,
-    "title": "Kule Savunma Oyunu",
-    "title_en": "Tower Defense Game",
-    "description": "C# ve Windows Forms kullanılarak geliştirilen strateji tabanlı masaüstü oyunu. Nesne Yönelimli Programlama (OOP) prensipleri etkin bir şekilde kullanılmıştır.",
-    "description_en": "Strategy-based desktop game developed using C# and Windows Forms. Object-Oriented Programming (OOP) principles were used effectively.",
-    "image": "assets/ww2.png",
-    "link": "#",
-    "category": "masaustu"
-  },
-  {
-    "id": 6,
+    "id": 10,
     "title": "Sanal Kütüphane Sistemi",
     "title_en": "Virtual Library System",
     "description": "C++ ve OOP prensipleri kullanılarak tasarlanan, kitap takibi, ödünç alma ve üye yönetimini sağlayan kütüphane otomasyonu.",
-    "description_en": "Library automation designed using C++ and OOP principles, providing book tracking, borrowing, and member management.",
+    "description_en": "Library automation designed with C++ and OOP principles, providing book tracking, borrowing, and member management.",
     "image": "assets/sanal.png",
     "link": "https://github.com/enesimo16/virtual-library-application",
-    "category": "masaustu"
+    "category": "masaustu",
+    "tags": ["C++", "OOP", "Console"]
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Lojistik Planlama Algoritması",
     "title_en": "Logistics Planning Algorithm",
     "description": "C++ ile geliştirilen, depo yönetimi ve nakliye rotalarını optimize eden, maliyet hesaplaması yapan lojistik planlama aracı.",
-    "description_en": "Logistics planning tool developed with C++, optimizing warehouse management and shipping routes, performing cost calculations.",
+    "description_en": "Logistics planning tool developed with C++, optimizing warehouse management and shipping routes with cost calculations.",
     "image": "assets/lojistik.png",
     "link": "https://github.com/enesimo16/logistics-planning",
-    "category": "masaustu"
+    "category": "masaustu",
+    "tags": ["C++", "Algorithm", "Optimization"]
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Sipariş Yönetim Sistemi",
     "title_en": "Order Management System",
     "description": "Python kullanılarak oluşturulan, müşteri siparişlerini işleyen, stok takibi yapan ve sipariş durumunu yöneten backend odaklı sistem.",
-    "description_en": "Backend-focused system created using Python that processes customer orders, tracks inventory, and manages order status.",
+    "description_en": "Backend-focused system created with Python that processes customer orders, tracks inventory, and manages order status.",
     "image": "assets/order.png",
     "link": "https://github.com/enesimo16/tritat-order-manager",
-    "category": "masaustu"
+    "category": "masaustu",
+    "tags": ["Python", "Backend", "CRUD"]
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "ATM Uygulaması",
     "title_en": "ATM Application",
     "description": "Python ile geliştirilen, kullanıcı girişi, bakiye sorgulama, para yatırma ve çekme işlemlerini simüle eden konsol tabanlı bankacılık uygulaması.",
-    "description_en": "Console-based banking application developed with Python, simulating user login, balance inquiry, deposit, and withdrawal transactions.",
+    "description_en": "Console-based banking application developed with Python, simulating user login, balance inquiry, deposit, and withdrawal.",
     "image": "assets/atm.png",
     "link": "https://github.com/enesimo16/atm-application",
-    "category": "masaustu"
+    "category": "masaustu",
+    "tags": ["Python", "Console", "Banking"]
   }
 ]
