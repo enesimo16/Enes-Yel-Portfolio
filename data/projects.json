@@ -1,43 +1,43 @@
 [
   {
     "id": 1,
-    "title": "Currere — Veri Bilimi Workspace",
-    "title_en": "Currere — Data Science Workspace",
-    "description": "C# .NET backend, Python AI worker ve Next.js frontend'i bir araya getiren yeni nesil, sandbox'lı veri bilimi çalışma ortamı. Jupyter benzeri notebook deneyimi sunar.",
-    "description_en": "Next-generation sandboxed Data Science workspace integrating a C# .NET backend, Python AI workers, and a Next.js frontend. Delivers a Jupyter-like notebook experience.",
+    "title": "Currere — AI Veri Bilimi IDE",
+    "title_en": "Currere — AI-Native Data Science IDE",
+    "description": "Tarayıcı tabanlı, AI destekli veri bilimi IDE'si. Docker sandbox'ta Python çalıştırır; Mimar, Kodlayıcı ve Onarıcı olmak üzere üç ajan analiz planlar, kod üretir ve hataları otomatik düzeltir.",
+    "description_en": "Browser-based AI-native data science IDE. Runs Python in Docker sandboxes with a multi-agent system (Architect, Coder, Healer) that plans analyses, generates code, and self-heals runtime errors.",
     "image": "assets/img/proj_currere.png",
     "link": "https://github.com/enesimo16/currere-workspace",
     "category": "web",
-    "tags": ["C#", ".NET", "Python", "Next.js", "AI"]
+    "tags": ["C#", ".NET 8", "Python", "Next.js", "AI", "Docker", "SignalR"]
   },
   {
     "id": 2,
-    "title": "Telemetry — AI Kod Analiz Platformu",
+    "title": "Telemetry — AI Kod İstihbarat Platformu",
     "title_en": "Telemetry — AI Code Intelligence Platform",
-    "description": ".NET 8, Onion Architecture ve Llama 3 ile inşa edilmiş gelişmiş yapay zeka destekli kod analiz platformu. Güvenlik denetimi, yeniden yapılandırma önerileri ve otomatik birim test üretimi içerir.",
-    "description_en": "Advanced AI-powered code analysis platform built with .NET 8, Onion Architecture, and Llama 3. Features security auditing, refactoring suggestions, and automated unit test generation.",
+    "description": ".NET 8 ve Clean Architecture ile inşa edilmiş, uzay temalı yapay zeka kod analiz platformu. Çoklu LLM sağlayıcı desteği (Gemini, Groq, Ollama), RAG tabanlı analiz ve gerçek zamanlı VS Code entegrasyonu içerir.",
+    "description_en": "Space-themed AI code analysis platform built with .NET 8 and Clean Architecture. Features multi-provider LLM support (Gemini, Groq, Ollama), RAG-based analysis, and real-time VS Code injection via SignalR.",
     "image": "assets/img/proj_telemetry.png",
     "link": "https://github.com/enesimo16/telemetry-code-intelligence",
     "category": "web",
-    "tags": ["C#", ".NET 8", "AI", "Llama 3", "Onion Architecture"]
+    "tags": ["C#", ".NET 8", "AI", "Next.js", "Clean Architecture", "SignalR", "RAG"]
   },
   {
     "id": 3,
     "title": "Namines — AI Veritabanı Mimarı",
     "title_en": "Namines — AI Database Architect",
-    "description": "Doğal dili şema, DDL, EF Core migration ve dokümantasyona dönüştüren yapay zeka destekli veritabanı tasarım aracı. 6 farklı veritabanı motorunu destekler.",
-    "description_en": "AI-powered database architect that turns plain language into schemas, DDL, EF Core migrations & docs across 6 database engines.",
+    "description": "Doğal dili, görsel şema, DDL, EF Core migration ve dokümantasyona dönüştüren AI destekli veritabanı tasarım platformu. 6 veritabanı motoru, gerçek zamanlı işbirliği ve sesli giriş destekler.",
+    "description_en": "AI-powered database design platform turning natural language into visual schemas, DDL, EF Core migrations & docs. Supports 6 database engines, real-time collaboration, and voice input.",
     "image": "assets/img/proj_namines.png",
     "link": "https://github.com/enesimo16/Namines",
     "category": "web",
-    "tags": ["TypeScript", "AI", "Next.js", "Database", "EF Core"]
+    "tags": ["TypeScript", "C#", "AI", "Next.js", ".NET 8", "EF Core", "SignalR"]
   },
   {
     "id": 4,
     "title": "MRC Homepage",
     "title_en": "MRC Homepage",
-    "description": "TypeScript ve modern web teknolojileri kullanılarak geliştirilen, Vercel'de yayınlanan profesyonel kurumsal anasayfa. Responsive ve performans odaklı tasarım.",
-    "description_en": "Professional corporate homepage developed with TypeScript and modern web technologies, deployed on Vercel. Responsive and performance-focused design.",
+    "description": "Next.js 16 ve TypeScript ile geliştirilen, Vercel'de yayınlanan modern kurumsal web sitesi. Performans odaklı yapı ve AI araç entegrasyonu (AGENTS.md, CLAUDE.md) içerir.",
+    "description_en": "Modern corporate website built with Next.js 16 and TypeScript, deployed on Vercel. Performance-focused architecture with AI tooling integration (AGENTS.md, CLAUDE.md).",
     "image": "assets/img/proj_mrc.png",
     "link": "https://github.com/enesimo16/mrc-homepage",
     "homepage": "https://mrc-homepage.vercel.app",
