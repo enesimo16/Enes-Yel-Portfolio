@@ -5,7 +5,7 @@
 Vanilla JS ile sıfırdan inşa edilmiş, modern ve etkileşimli kişisel portfolyo sitem.
 Herhangi bir framework kullanmadan **Single Page Application (SPA)** mimarisi gerçekleştirildi.
 
-🔗 **Canlı:** [enesimo16.github.io/portfolio](https://enesimo16.github.io/portfolio)  
+🔗 **Canlı:** [enesimo16.github.io/Enes-Yel-Portfolio](https://enesimo16.github.io/Enes-Yel-Portfolio)  
 🐙 **GitHub:** [github.com/enesimo16](https://github.com/enesimo16)  
 💼 **LinkedIn:** [linkedin.com/in/enes-yel](https://www.linkedin.com/in/enes-yel-44a1ab297/)
 
@@ -108,4 +108,4 @@ Bilişim Sistemleri Mühendisliği · Sakarya Üniversitesi
 
 ---
 
-© 2025 Enes Yel
+© 2026 Enes Yel
